@@ -9,5 +9,3 @@ npm install sass --save-dev
 ```
 
 All components are written to be as stand-alone as possible with the exception of css variables found in the the global.scss file.
-
-To get the theme-default and typo-default to load you must add these classes to the html element in app.html.
