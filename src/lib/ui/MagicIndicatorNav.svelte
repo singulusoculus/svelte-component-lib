@@ -34,7 +34,7 @@
 		</div>
 		{#each navItems as navItem, i}
 			<li>
-				<a href="#" class:active={i === position} on:click={() => (position = i)}>
+				<a href="#test" class:active={i === position} on:click={() => (position = i)}>
 					<div class="icon">
 						<Icon name={navItem.icon} size={30} />
 					</div>
@@ -100,12 +100,12 @@
 		transition: 250ms ease-in-out;
 	}
 
-	.list .icon svg {
-		fill: currentColor;
-		width: var(--icon-size);
-		height: var(--icon-size);
-		display: block;
-	}
+	// .list .icon svg {
+	// 	fill: currentColor;
+	// 	width: var(--icon-size);
+	// 	height: var(--icon-size);
+	// 	display: block;
+	// }
 
 	.list .active .text {
 		pointer-events: all;
